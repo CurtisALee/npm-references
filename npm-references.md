@@ -69,7 +69,7 @@ Once you've created your `package.json` file, you are now ready to start install
 
 This will make sure to install the package to your project in a `node_modules` folder, but also `--save` it to the `package.json` file you created.
 
-If required, you can save dependencies for development purposes only, using `--save-dev` in order to store the packages under `"devDependencies": {..}` instead. When someone downloads or clones your project, they can simple run `npm install` in the root folder in order to replicate your build environment and start using all of the packages.
+If required, you can save dependencies for development purposes only, using `--save-dev` in order to store the packages under `"devDependencies": {..}` instead. When someone downloads or clones your project, they can simply run `npm install` in the root folder in order to replicate your build environment and start using all of the packages.
 
 ```
 "devDependencies": {
