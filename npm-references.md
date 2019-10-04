@@ -31,6 +31,7 @@ keywords: ""
 author: ""
 license: (ISC)
 ```
+
 Once you have answered the questions (not all of them need an _immediate_ answer), press [↵] to confirm and create the **JSON** file:
 
 ```
@@ -144,7 +145,7 @@ When the site / application is complete, you can run the next command `npm build
 
 #### Extra reference:
 
-You could also add something like `"concat:css"` if you are using multiple `CSS` files (including libraries) within a project. This would allow you to select an output file, as well the list of files you wish to join together in the build process, and using [concat](https://www.npmjs.com/package/concat), you can then compile them into one file so that the browser only has to request the `CSS` code once instead of pulling in multiple `stylesheets`.
+You could also add something like `"concat:css"` if you are using multiple `CSS` files (including libraries) within a project. This would allow you to select an output file, as well as the list of files you wish to join together in the build process, and using [concat](https://www.npmjs.com/package/concat), you can then compile them into one file so that the browser only has to request the `CSS` code once instead of pulling in multiple `stylesheets`.
 
 ---
 
@@ -169,10 +170,10 @@ Your overall terminal output should look something like:
 (`macOS`)
 
 ```
- autoprefixer  ^7.1.4  →   ^9.6.1 
- node-sass     ^4.5.3  →  ^4.12.0 
- npm-run-all   ^4.1.1  →   ^4.1.5 
- postcss-cli   ^4.1.1  →   ^6.1.3 
+ autoprefixer  ^7.1.4  →   ^9.6.1
+ node-sass     ^4.5.3  →  ^4.12.0
+ npm-run-all   ^4.1.1  →   ^4.1.5
+ postcss-cli   ^4.1.1  →   ^6.1.3
 
 Run npm install to install new versions.
 ```
@@ -184,10 +185,9 @@ Whenever you install a new package, it installs the latest version by default an
 ---
 
 ## 05 - Conclusion
+
 That concludes the basic overview for setting up and managing your build environment. I will most likely continue adding to this in the future as I learn new things, but currently, the above gives me a good foundation for setting up `dev` environments when working with preprocessors such as Sass (SCSS), live servers, and much more!
 
 This includes _real_ examples for things such as setting up a `sass watcher` and `compiler` as well, so it will definitely be of some use.
-
-
 
 **Curtis Lee, 2019**
